@@ -4,6 +4,7 @@ We have sniffed an unsecured network and found numbers that are used to encrypt 
 
 ## Description of what each file shows:
 * factors - the program to factorize (Usage: time ./factors tests/test00)
+* rsa - (Usage: ./rsa tests/rsa-1 ...)
 * tests/test00 - the file with the numbers
 
 Compile C function: gcc -fPIC -shared factors_functions.c -o lib_factors_functions.so 
